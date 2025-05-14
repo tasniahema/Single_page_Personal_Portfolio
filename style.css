@@ -99,3 +99,67 @@
     border: 3px solid #ccc;
 } 
 
+
+/* project section  */
+
+.Project-section {
+  padding: 40px;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+.Project-section h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.card {
+  background: rgb(244, 247, 241);
+  border: 1px solid #dddddd;
+  width: 32%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  color:rgb(61, 2, 2);
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
