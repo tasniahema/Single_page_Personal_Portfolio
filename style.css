@@ -1,3 +1,101 @@
 *{
+    margin:0;
     font-family: Arial, Helvetica, sans-serif;
+    Border: Border-box;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+      height: 50px;
+    background-color:Black;
+}
+
+.navbar{
+
+    height: 50px;
+    background-color:Black;
+     
+   
+    
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url(Thlogo.png);
+    background-size: cover;
+    background-repeat:round;
+    padding-left: 60px;
+    margin: 0px;
+    height:50px;
+    width:100%;
+}
+.logo-title{
+    color:rgb(254, 253, 252);
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+}
+
+   .img {
+    background-image: url(Image.png);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-size: cover;
+      border: 2px solid #ccc;
+      margin:10px;
+}
+
+
+
+.about {
+    background-color: #f3eff1;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; 
+}
+
+
+.about-img {
+    width: 35%;
+    text-align: center;
+}
+
+.about-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
+}
+
